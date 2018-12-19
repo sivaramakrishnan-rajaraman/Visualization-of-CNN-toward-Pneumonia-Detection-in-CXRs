@@ -12,11 +12,22 @@ Tensorflow-GPU>=1.9.0
 
 OpenCV>=3.3
 
-In this study, we evaluate, visualize, and explain the performance of CNNs to detect pneumonia and further differentiate between bacterial and viral types in pediatric Chest radiographs. We present a novel visualization strategy to localize the region of interest that is considered relevant for model predictions across all the inputs that belong to an expected class. We used a set of pediatric CXRs that have been made publicly available by:
+# Goal
+
+In this study, we evaluate, visualize, and explain the performance of CNNs to detect pneumonia and further differentiate between bacterial and viral types in pediatric Chest radiographs. We present a novel visualization strategy to localize the region of interest that is considered relevant for model predictions across all the inputs that belong to an expected class. 
+
+# Data Availability
+
+We used a set of pediatric CXRs that have been made publicly available by:
 
 Kermany, D.S.; Goldbaum, M.; Cai, W.; Valentim, C.C.S.; Liang, H.; Baxter, S.L.; McKeown, A.; Yang, G.; Wu, X.; Yan, F.; et al. Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning. Cell 2018, 172, 1122–1131. 
 
+# ROI Segmentation
+
 The CXRs contain regions other than the lungs that do not contribute to diagnosing pneumonia. We used an algorithm based on anatomical atlases to automatically detect the lung ROI and cropped them to the size of the bounding box and resampled to 1024 X 1024 pixel dimensions. The source code for the same can be found at https://ceb.nlm.nih.gov/proj/tb/Segmentation_Module_Version_2017_11_04.zip. 
+
+# Performance Evaluation
+
 We evaluated the performance of different types of custom CNNs including (i) Sequential CNN; (ii) CNN with residual connections (Residual CNN); (iii) CNN with Inception modules, and (iv) Pretrained VGG16 model in detecting pneumonia and furthermore distinguishing between bacterial and viral types. We evaluated the performance of these CNNs in terms of the following performance metrics: (i) accuracy; (ii) AUC; (iii) precision; (iv) recall; (v) specificity; (vi) F-Score; and, (vii) Matthews Correlation Coefficient (MCC).
 
 # Visualization studies:
