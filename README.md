@@ -2,7 +2,7 @@
 Visualization and Interpretation of Convolutional Neural Network Predictions in Detecting Pneumonia in Pediatric Chest Radiographs
 Feel free to use the attached notebooks for your own model and data. Kindly cite the publication as these codes are part of this published work:
 
-# Rajaraman S, Candemir S, Kim I, Thoma GR, Antani SK. Visualization and Interpretation of Convolutional Neural Network Predictions in Detecting Pneumonia in Pediatric Chest Radiographs. Appl. Sci. 2018, 8, 1715
+## Rajaraman S, Candemir S, Kim I, Thoma GR, Antani SK. Visualization and Interpretation of Convolutional Neural Network Predictions in Detecting Pneumonia in Pediatric Chest Radiographs. Appl. Sci. 2018, 8, 1715
 
 # Prerequisites:
 
