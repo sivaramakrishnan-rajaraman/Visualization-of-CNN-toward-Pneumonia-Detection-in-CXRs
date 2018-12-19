@@ -28,7 +28,7 @@ We performed class activation maps (CAM) and gradient-weighted CAM visualization
 # Locally Interpretable Model-Agnostic Visual Explanations (LIME):
 In the publication entitled “Why Should I Trust You?- Explaining the Predictions of Any Classifier”, the authors explain a framework called LIME (Locally Interpretable Model-Agnostic Explanations), which is an algorithm that can explain the predictions of any classifier in a faithful way by approximating it locally with an interpretable model.  We used this visualization tool to explain the learned behavior of the model toward detecting pneumonia and further differentiate bacterial and viral pneumonia types. The details pertaining to these studies can be found in our published paper.  
 
- 
+![Alt text](Figure 6.PNG?raw=true "Sequential CNN") 
 Custom Residual CNN
  
 Custom Inception CNN
